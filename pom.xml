@@ -11,8 +11,8 @@
     <groupId>com.microservices-and-cloud</groupId>
     <artifactId>spring-microservices-and-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-microservices-and-cloud</name>
-    <description>spring-microservices-and-cloud</description>
+    <name>microservices-and-cloud</name>
+    <description>microservices-and-cloud</description>
     <packaging>pom</packaging>
     <properties>
         <java.version>1.8</java.version>
@@ -25,6 +25,7 @@
         <module>admin-server</module>
         <module>config-server</module>
         <module>proxy-server</module>
+        <module>order-service</module>
     </modules>
     <dependencies>
         <dependency>
@@ -45,14 +46,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-sleuth</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-sleuth-zipkin</artifactId>
         </dependency>
     </dependencies>
     <dependencyManagement>

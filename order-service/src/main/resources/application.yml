@@ -1,0 +1,21 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:mysql://localhost:3307/installment_upgrade?serverTimezone=UTC
+    username: root
+    password: my-secret-pw
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
