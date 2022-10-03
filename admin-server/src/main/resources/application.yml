@@ -9,3 +9,5 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
+  management.U';/.,UUendpoints.web.exposure.include=*
+  management.endpoint.health.show-details=always
