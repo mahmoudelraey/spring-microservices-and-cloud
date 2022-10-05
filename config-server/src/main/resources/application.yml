@@ -3,16 +3,12 @@ server:
 
 spring:
   application:
-  name: config-server
+    name: config-server
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/common-config
-  config:
-    activate:
-      on-profile:
-
+        git:
+          uri: https://github.com/mahmoudelraey/spring-microservices-and-cloud/tree/master/common-config
 
 eureka:
   client:

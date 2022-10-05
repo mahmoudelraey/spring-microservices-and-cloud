@@ -1,13 +1,13 @@
 server:
-  port: ${PORT:0}
+  port: 9091
 
 spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:mysql://localhost:3306/installment_upgrade?serverTimezone=UTC
+    url: jdbc:mysql://localhost:3307/installment_upgrade?serverTimezone=UTC
     username: root
-    password: root
+    password: my-secret-pw
   jpa:
     properties:
       hibernate:
@@ -18,6 +18,4 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-  instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
