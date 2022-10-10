@@ -1,9 +1,9 @@
 server:
-  port: 8700
+  port: 8081
 
 spring:
   application:
-    name: api-gateway
+    name: proxy-server
   main:
     web-application-type: reactive
   cloud:
