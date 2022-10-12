@@ -1,7 +1,7 @@
 package com.installment.customer.model;
 
-import com.installment.common.model.BaseEntity;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,6 +14,7 @@ import javax.validation.constraints.Size;
 @Entity
 @Table(name = "customer")
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @NamedQuery(name = "Customer.search", query = "select customer from Customer customer where (:fromDate is null or customer.creationDate >= :fromDate)" +

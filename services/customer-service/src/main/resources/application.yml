@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: client-service
+    name: customer-service
   cloud:
     config:
       enabled: true

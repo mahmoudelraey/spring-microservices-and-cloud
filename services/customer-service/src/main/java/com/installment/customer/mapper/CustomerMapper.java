@@ -1,6 +1,6 @@
 package com.installment.customer.mapper;
 
-import com.installment.common.dto.CustomerDto;
+import com.installment.customer.dto.CustomerDto;
 import com.installment.customer.model.Customer;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;

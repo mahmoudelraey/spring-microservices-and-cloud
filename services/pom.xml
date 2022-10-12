@@ -15,7 +15,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>common</module>
         <module>safe-service</module>
         <module>order-service</module>
         <module>invoice-service</module>
@@ -67,12 +66,15 @@
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
         </dependency>
-
-
         <dependency>
             <groupId>org.modelmapper.extensions</groupId>
             <artifactId>modelmapper-spring</artifactId>
             <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

@@ -1,6 +1,6 @@
 package com.installment.customer.controller;
 
-import com.installment.common.dto.CustomerDto;
+import com.installment.customer.dto.CustomerDto;
 import com.installment.customer.service.CustomerServiceImpl;
 import lombok.AllArgsConstructor;
 

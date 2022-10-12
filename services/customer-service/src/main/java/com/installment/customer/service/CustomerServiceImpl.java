@@ -1,12 +1,11 @@
 package com.installment.customer.service;
 
-import com.installment.common.dto.CustomerDto;
-import com.installment.common.util.DateUtil;
+import com.installment.customer.dto.CustomerDto;
 import com.installment.customer.mapper.CustomerMapper;
 import com.installment.customer.model.Customer;
 import com.installment.customer.repository.CustomerRepository;
+import com.installment.customer.util.DateUtil;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
