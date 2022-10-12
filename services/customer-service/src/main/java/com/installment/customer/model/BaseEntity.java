@@ -1,19 +1,17 @@
 package com.installment.customer.model;
 
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.springframework.boot.actuate.audit.listener.AuditListener;
 
 import javax.persistence.*;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
 @MappedSuperclass
 @EntityListeners({AuditListener.class})
 @Data
+@AllArgsConstructor
 public abstract class BaseEntity {
 
     @Id
