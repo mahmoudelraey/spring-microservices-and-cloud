@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3307/order_upgrade?serverTimezone=UTC
+    url: jdbc:mysql://localhost:3307/inventory_upgrade?serverTimezone=UTC
     username: root
     password: my-secret-pw
   jpa:
